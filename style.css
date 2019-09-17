@@ -1,0 +1,33 @@
+html,body{
+    height:100%;
+    
+}
+
+#quote{
+    color: red;
+}
+
+#candycaneR, #candycane, #candycaneT{
+     background-image: url(cane.png);
+     position: relative;
+     background-size: contain;
+     background-repeat: repeat;
+   
+
+}
+#santa{
+    background-image: url(town.jpg);
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-size: 300px 100px;  */
+}
+
+
+#sidebar{
+    background-color: #89CFF0;
+}
+
+#scroll{
+    
+}
