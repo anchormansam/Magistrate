@@ -18,7 +18,7 @@
 <body>
 
     <div class="container h-100">
-        <div class="row h-100">
+        <div class="row h-100" id="fullsite">
             <!-- sidebar -->
             <div class="col-4 border border-black h-100" id="sidebar">
                 <!-- About Santa -->
@@ -56,16 +56,18 @@
                                         <a class="About" href="#">About</a>
                                     </li>
                                     <li class="nav-item p-3">
-                                        <a class="Why Me?" href="#">Vote for Me!</a>
+                                        <a class="Why Me?" href="#card">Vote for Me!</a>
                                     </li>
                                     <li class="nav-item p-3">
                                         <a class="Donate" href="#">Campaign Donations</a>
                                     </li>
                                     <li class="nav-item p-3">
-                                        <a class="Support" href="#">Show Support</a>
+                                        <a class="Support" href="#carouselExampleIndicators">Show Support</a>
                                     </li>
                                     <li class="nav-item p-3">
                                         <a class="Contact" href="#">Contact</a>
+                                    <li class="nav-item p-3">
+                                        <a href="https://youtu.be/TRt3XXJs_54" target="_blank">Watch my Movie!</a>
                                     </li>
                                 </ul>
                             </div>
@@ -81,10 +83,10 @@
                 </div>
             </div>
             <!-- main body -->
-            <div class="col-8 h-100 ">
-                <div class="row h-100" id="santa">
+            <div class="col-8 h-100 " id="mainscroll">
+                <div class="row h-50" id="santa">
 
-                    <div class="col" style="margin: 30px" id="quote">
+                    <div class="col" style="margin: 30px; text-align: 2rem;" id="quote">
 
                         "The kids and girls and boys land<br>
                         Will have a jubilee<br>
@@ -101,31 +103,182 @@
 
                     </div>
                 </div>
-                <div class="row h-100">
-                    <div class="col-4 h-100">
-                        <!-- Image of Santa -->
+                <div class="row mt-3">
+                    <div class="col-4">
+                        <img src="penguin.jpg" style="align-self: auto" class="img-fluid height:max;">
                     </div>
-                    <div class="col-8 h-100">
-                        <!-- about me  -->
+                    <div class="col-8">
+                        <p>
+                            Thank you for checking out the campaign page for Santa Claus. I wanted to first Thank You
+                            for
+                            taking time out of your day to checkout my page. To see my views on topics that we are faced
+                            with everyday.
+                            I take the roll for Constable of the Third District in Fayette County very seriously. I
+                            spend most of my time fighting for
+                            what I believe in. I will make sure to fight for Global warming. I believe it will not only
+                            hurt our 4 seasons but will
+                            also cause the children of future Generations to not experience snow! I will also fight for
+                            your rights to work. As a current
+                            employer of over a million staff members who build toys, take care of the local live stock
+                            and help keep the North Pole running, I
+                            will make sure that working conditions for the people are fair. As many of you know I am a
+                            huge animal lover and want to make sure
+                            that animals have rights too!
+
+
+                        </p>
                     </div>
                 </div>
-                <div class="row">Vote for Me
+                <div class="row h-25 text-center" id="timer">
+                    <div class="col h-25" style="text-center">
+                        <h1>Voting Starts November 5th!</h1>
+
+                        <div id="clockwrap">
+
+                            <!-- <p>Days : Hours : Minutes : Secounds</p> -->
+
+                            <div id="clocktimer"></div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="row">
                     <div class="col-3">
-                        <!-- Santa Card -->
+
+                        <div class="card" id="card" style="width: 11rem;">
+                            <img src="profil1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Santa Claus</h5>
+                                <p class="card-text">
+                                    <ul>
+                                        <li>
+                                            Knows who's naughty or nice!
+                                        </li>
+                                        <li>
+                                            Loves children of all ages!
+                                        </li>
+                                        <li>
+                                            Always Jolly
+                                        </li>
+                                    </ul>
+                                </p>
+                                <a href="#" class="btn btn-primary">View Points</a>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-3">
-                        <!-- Burgermeister Meister Burger Card -->
+
+                        <div class="card" style="width: 11rem;">
+                            <img src="burger.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h6 class="card-title">Burgermeister MeisterBurger</h6>
+                                <p class="card-text">
+                                    <ul>
+                                        <li>
+                                            Hates toys!
+                                        </li>
+                                        <li>
+                                            Fun-loathing!
+                                        </li>
+                                        <li>
+                                            Always Grumpy!
+                                        </li>
+                                    </ul>
+                                </p>
+                                <a href="#" class="btn btn-primary">View Points</a>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-3">
-                        <!-- Heat Miser -->
+
+                        <div class="card" style="width: 11rem;">
+                            <img src="heat1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Heat Miser</h5>
+                                <p class="card-text">
+                                    <ul>
+                                        <li>
+                                            Hates Snow!
+                                        </li>
+                                        <li>
+                                            Wants it to be Hot!
+                                        </li>
+                                        <li>
+                                            Always Irritated!
+                                        </li>
+                                    </ul>
+                                </p>
+                                <a href="#" class="btn btn-primary">View Points</a>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-3">
-                        <!-- Kubla Kraus -->
+
+                        <div class="card" style="width: 11rem;">
+                            <img src="kubla2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Kubla Kraus</h5>
+                                <p class="card-text">
+                                    <ul>
+                                        <li>
+                                            No good will towards men!
+                                        </li>
+                                        <li>
+                                            Selfish!
+                                        </li>
+                                        <li>
+                                            Always Arrogant!
+                                        </li>
+                                    </ul>
+                                </p>
+                                <a href="#" class="btn btn-primary">View Points</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col">
-                        <!-- Slide show of items to purchase -->
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="sleigh.jpg" alt="replica Santa Sleigh">
+                                    <div class="carousel-caption d-none d-md-block" id="items1">
+                                        <h5>Replica Santa Sleigh</h5>
+                                        <p>$50 (Proceeds support Candidate)</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="woodentoy.jpg" alt="wooden toy">
+                                    <div class="carousel-caption d-none d-md-block" id="items2">
+                                        <h5>Custom Wooden Toys</h5>
+                                        <p>$100 (Proceeds support Candidate)</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="BOXCANE.jpg" alt="box of candy canes">
+                                    <div class="carousel-caption d-none d-md-block" id="items3">
+                                        <h5>Box of Candy Canes</h5>
+                                        <p>$25 (Proceeds support Candidate)</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                                data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                                data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="row">
@@ -144,7 +297,7 @@
         </div>
 
     </div>
-    
+
 
 
 
@@ -166,6 +319,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <script src="timer.js"></script>
 </body>
 
 </html>
