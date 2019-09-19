@@ -1,33 +1,71 @@
-html,body{
-    height:100%;
-    
+html, body {
+  height: 100%;
 }
 
-#quote{
-    color: red;
+#quote {
+  color: rgb(0, 26, 255);
 }
 
-#candycaneR, #candycane, #candycaneT{
-     background-image: url(cane.png);
-     position: relative;
-     background-size: contain;
-     background-repeat: repeat;
-   
-
-}
-#santa{
-    background-image: url(town.jpg);
-    position: relative;
-    background-size: contain;
-    background-repeat: no-repeat;
-    /* background-size: 300px 100px;  */
+#candycaneR, #candycane, #candycaneT {
+  background-image: url(cane.png);
+  position: relative;
+  background-size: contain;
+  background-repeat: repeat;
 }
 
-
-#sidebar{
-    background-color: #89CFF0;
+#santa {
+  background-image: url(town.jpg);
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: 2rem;
 }
 
-#scroll{
-    
+#sidebar {
+  background-color: #89CFF0;
+}
+
+#fullsite {
+  overflow-y: hidden;
+}
+
+#mainscroll {
+  overflow-y: scroll;
+  background-image:url(stripes.jpeg);
+  position: relative;
+  background-size: contain;
+  background-repeat: repeat;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after {
+  content: '>';
+  font-size: 55px;
+  color: rgb(10, 10, 10);
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: rgb(10, 10, 10);
+}
+
+#items1, #items2, #items3 {
+  border: 2px solid black;
+  color: black;
+  background:white;
+}
+
+#timer{
+  color: purple;
+  /* Transparent */
 }
