@@ -112,7 +112,7 @@ html, body {
   border-top: none;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1199px) {
   #penguin {
     display: inline-block;
     margin: auto;
