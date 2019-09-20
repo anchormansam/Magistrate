@@ -67,11 +67,11 @@ html, body {
   background: white;
 }
 
-#heatcard {
+#BMcard {
   margin-left: 24px;
 }
 
-#KKcard{
+#Kublacard{
   margin-left: 24px;
 }
 
@@ -151,12 +151,12 @@ html, body {
   }
 }
 
-@media (max-width:525px) {
+@media (max-width:575px) {
   #santa {
     min-height: 298px;
   }
-  #heatcard, #KKcard {
-    margin-left: -3px;
+  #BMcard, #Kublacard {
+    margin-left: 3px;
     margin-top: 15px;
   }
 }
